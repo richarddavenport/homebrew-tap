@@ -4,7 +4,6 @@
 class Swarmctl < Formula
   desc "Terminal UI for browsing and deploying to Docker Swarm environments"
   homepage "https://github.com/richarddavenport/swarmctl-dist"
-  version "0.10.0"
   license :cannot_represent
 
   on_macos do
