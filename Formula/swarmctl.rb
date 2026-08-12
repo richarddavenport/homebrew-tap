@@ -10,23 +10,23 @@ class Swarmctl < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/richarddavenport/swarmctl-dist/releases/download/v0.12.1/swarmctl_darwin_arm64"
-      sha256 "3e68dad6334784a170e514ee1a984f51e7f6dac7291db61a42684695830f88d0"
+      url "https://github.com/richarddavenport/swarmctl-dist/releases/download/v0.13.0/swarmctl_darwin_arm64"
+      sha256 "8603e64b90bcfa1977a4095696e9edd874130a89be76e1509983fd56120b9d85"
     end
     on_intel do
-      url "https://github.com/richarddavenport/swarmctl-dist/releases/download/v0.12.1/swarmctl_darwin_amd64"
-      sha256 "856778415b0b6e237a53755444777fa343af33cf80f5b593e3eb42c739069258"
+      url "https://github.com/richarddavenport/swarmctl-dist/releases/download/v0.13.0/swarmctl_darwin_amd64"
+      sha256 "f069a93c85baf9c612655da310a551053f1e348ab6cf4922029d6975e6d9ed15"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/richarddavenport/swarmctl-dist/releases/download/v0.12.1/swarmctl_linux_arm64"
-      sha256 "9074326474831ba95d4c7da6929f6cdcc010f4a94c9ab825de61bc16666aa7ef"
+      url "https://github.com/richarddavenport/swarmctl-dist/releases/download/v0.13.0/swarmctl_linux_arm64"
+      sha256 "aa2bed053ad7e1a87991784b03602d725891cf8c8a09df7ff8949364cf2fa50d"
     end
     on_intel do
-      url "https://github.com/richarddavenport/swarmctl-dist/releases/download/v0.12.1/swarmctl_linux_amd64"
-      sha256 "194c0c1b6e9be2ea305d66702774bfd858e3cd12c8a8a2d56231e76e21f61a6c"
+      url "https://github.com/richarddavenport/swarmctl-dist/releases/download/v0.13.0/swarmctl_linux_amd64"
+      sha256 "88c285f64a6534bbcec78fdd69517f5603a38e3a91efc4c643c60253ce9f8c54"
     end
   end
 
